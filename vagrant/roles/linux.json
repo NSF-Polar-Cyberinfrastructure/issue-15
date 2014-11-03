@@ -1,0 +1,12 @@
+{
+  "name": "linux",
+  "description": "linux base",
+  "json_class": "Chef::Role",
+  "override_attributes": {
+  },
+  "chef_type": "role",
+  "run_list": [
+  ],
+  "env_run_lists": {
+  }
+}
