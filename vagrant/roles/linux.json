@@ -3,9 +3,15 @@
   "description": "linux base",
   "json_class": "Chef::Role",
   "override_attributes": {
+    "python": {
+        "install_method": "source"
+    }
   },
   "chef_type": "role",
   "run_list": [
+    "recipe[chef-gdal]",
+    "recipe[python]",
+    "recipe[scipy]"
   ],
   "env_run_lists": {
   }

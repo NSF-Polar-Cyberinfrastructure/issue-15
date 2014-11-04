@@ -1,3 +1,21 @@
 [submodule "vagrant/cookbooks/chef-gdal"]
 	path = vagrant/cookbooks/chef-gdal
 	url = https://github.com/jdabney/chef-gdal.git
+[submodule "vagrant/cookbooks/apt"]
+	path = vagrant/cookbooks/apt
+	url = https://github.com/opscode-cookbooks/apt.git
+[submodule "vagrant/cookbooks/build-essential"]
+	path = vagrant/cookbooks/build-essential
+	url = https://github.com/opscode-cookbooks/build-essential.git
+[submodule "vagrant/cookbooks/scipy"]
+	path = vagrant/cookbooks/scipy
+	url = https://github.com/bflad/chef-scipy.git
+[submodule "vagrant/cookbooks/python"]
+	path = vagrant/cookbooks/python
+	url = https://github.com/poise/python.git
+[submodule "vagrant/cookbooks/yum"]
+	path = vagrant/cookbooks/yum
+	url = https://github.com/opscode-cookbooks/yum.git
+[submodule "vagrant/cookbooks/yum-epel"]
+	path = vagrant/cookbooks/yum-epel
+	url = https://github.com/opscode-cookbooks/yum-epel.git
