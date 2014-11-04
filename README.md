@@ -1,13 +1,16 @@
 issue-15
 ========
 
-Polar Data Analytics as a Service (PDAaaS)
+# Polar Data Analytics as a Service (PDAaaS)
 
+## Introduction
 The goal of this workshop is for us to 
 
  * gather a comprehensive list of useful software components which can be used to lower the barrier for interaction with Polar datasetsq
  * based upon the above, create a [vagrant](https://www.vagrantup.com/) image which includes all of this software meaning that no installation is required on the users part
  * make an effort towards documenting data resources. This is driven by the reqirement for the US Coast Guard Academy to to locate and retrieve information for a variety of use cases.
+
+## Packages
 
 For information on what packages one would typically add to the VM, please see below
 
@@ -24,3 +27,7 @@ For information on what packages one would typically add to the VM, please see b
  * [basemap](http://matplotlib.org/basemap/) - The matplotlib basemap toolkit is a library for plotting 2D data on maps in Python. It is similar in functionality to the matlab mapping toolbox, the IDL mapping facilities, GrADS, or the Generic Mapping Tools. PyNGL and CDAT are other libraries that provide similar capabilities in Python.
 
  * [Anaconda](https://store.continuum.io/cshop/anaconda/) - Completely free enterprise-ready Python distribution for large-scale data processing, predictive analytics, and scientific computing.
+
+## Adding new Packages
+
+TODO
