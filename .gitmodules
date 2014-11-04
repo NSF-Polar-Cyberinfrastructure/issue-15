@@ -1,0 +1,3 @@
+[submodule "vagrant/cookbooks/chef-gdal"]
+	path = vagrant/cookbooks/chef-gdal
+	url = https://github.com/jdabney/chef-gdal.git
